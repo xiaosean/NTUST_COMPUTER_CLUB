@@ -1,0 +1,7 @@
+f = open("test.txt","r")
+# print(f)
+print(f.read())
+f.close()
+f_write = open("test_write.txt", "w")
+f_write.write("12345\n1wr6q16q\n")
+f_write.close()
